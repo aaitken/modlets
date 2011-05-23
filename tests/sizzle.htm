@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>sizzle</title>
+	<meta charset="UTF-8">
+	<script src="../scripts/require.js"></script>
+	<script>
+		var GNS={};
+		require(['../scripts/modules/sizzle'],function(sizzle){
+			GNS.sel=sizzle;
+			require.ready(function(){alert(GNS.sel('h1').length+' h1 elements on page')});
+		});
+	</script>
+
+</head>
+<body>
+<h1>Selector Test!</h1>
+<h1>sizzle</h1>
+</body>
+</html>
