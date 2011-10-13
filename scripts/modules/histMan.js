@@ -1,5 +1,5 @@
-//AMA 2011
-//Normalize x-browser implementation of the history API
+//Alex Aitken 2011
+//Normalization of x-browser history API implementation
 
 define([],function(){
 	var histMan={

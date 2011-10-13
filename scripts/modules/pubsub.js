@@ -1,3 +1,6 @@
+//Stoyan Stefanov's pubsub implementation
+//Modularized by Alex Aitken 2011
+
 define([],function(){
 	var pubsub={
 		publisher:{

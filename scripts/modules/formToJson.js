@@ -1,3 +1,6 @@
+//Alex Aitken 2011
+//Creates JSON map of form field name-value pairs on form submit
+
 define([],function(){
 	var formToJson=function(e){ //e = submit event
 

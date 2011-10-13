@@ -1,3 +1,5 @@
+//Modularized by Alex Aitken 2011
+
 define([],function(){
 	/*!
 	 * Sizzle CSS Selector Engine
